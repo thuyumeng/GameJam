@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# Unreal Engine project .gitignore
+# Generated / transient directories are excluded; Source, Content and Config
+# are tracked.
+# ---------------------------------------------------------------------------
+
+# Engine-generated / build output
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio / Rider / Xcode project files (regenerated from .uproject)
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vs/
+*.xcodeproj/
+*.xcworkspace/
+
+# IDE / editor local settings
+.idea/
+.vscode/
+*.DotSettings.user
+GameJoy.uproject.DotSettings.user
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Local tool / assistant state (keep shared config, drop machine-local bits)
+.claude/settings.local.json
+.augment/
